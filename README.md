@@ -1,6 +1,6 @@
 # Glove80 Dvorak Layout
 
-Personal Glove80 layout, version 2.
+Personal Glove80 layout, version 8.
 
 [`keymap.json`](keymap.json)
 
