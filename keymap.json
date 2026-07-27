@@ -7,8 +7,8 @@
   "unlisted": false,
   "date": 1785064974,
   "creator": "cjvnjde",
-  "title": "cjvnjde's Glove80 Dvorak v1",
-  "notes": "Version 1 of cjvnjde's personal Glove80 layout. Dvorak is implemented in keyboard firmware, so keep the host OS input layout set to US QWERTY; selecting Dvorak in the OS remaps keys twice. Includes a QWERTY fallback plus Lower, Symbol, and Magic layers for navigation, numpad/media, symbols, Bluetooth, RGB, and firmware controls. Hold Symbol/Escape for Symbol or tap Escape; hold Lower/Delete for Lower or tap Delete.",
+  "title": "cjvnjde's Glove80 Dvorak v2",
+  "notes": "Version 2 of cjvnjde's personal Glove80 layout. Dvorak is implemented in keyboard firmware, so keep the host OS input layout set to US QWERTY; selecting Dvorak in the OS remaps keys twice. Includes a QWERTY fallback plus Lower, Symbol, and Magic layers for navigation, numpad/media, symbols, Bluetooth, RGB, and firmware controls. Hold Escape or Delete for Symbol; tap for Escape or Delete. Hold Enter for Lower; tap for Enter.",
   "tags": [
     "dvorak"
   ],
@@ -298,7 +298,7 @@
         ]
       },
       {
-        "value": "&sym_esc",
+        "value": "&layer_tap",
         "params": [
           {
             "value": 3
@@ -584,10 +584,10 @@
         ]
       },
       {
-        "value": "&lower_del",
+        "value": "&layer_tap",
         "params": [
           {
-            "value": 2
+            "value": 3
           },
           {
             "value": "DEL"
@@ -611,8 +611,11 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&layer_tap",
         "params": [
+          {
+            "value": 2
+          },
           {
             "value": "RET"
           }
@@ -941,7 +944,7 @@
         ]
       },
       {
-        "value": "&sym_esc",
+        "value": "&layer_tap",
         "params": [
           {
             "value": 3
@@ -1227,10 +1230,10 @@
         ]
       },
       {
-        "value": "&lower_del",
+        "value": "&layer_tap",
         "params": [
           {
-            "value": 2
+            "value": 3
           },
           {
             "value": "DEL"
@@ -1254,8 +1257,11 @@
         ]
       },
       {
-        "value": "&kp",
+        "value": "&layer_tap",
         "params": [
+          {
+            "value": 2
+          },
           {
             "value": "RET"
           }
@@ -1819,55 +1825,55 @@
     ],
     [
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -1920,13 +1926,13 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -1937,10 +1943,10 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -2011,10 +2017,10 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -2041,7 +2047,7 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -2117,31 +2123,31 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -2241,28 +2247,28 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
-        "value": "&none"
+        "value": "&trans"
       },
       {
         "value": "&kp",
@@ -2351,7 +2357,7 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&trans"
       }
     ],
     [
@@ -2671,27 +2677,15 @@
   "inputListeners": [],
   "holdTaps": [
     {
-      "name": "&sym_esc",
-      "description": "Hold for Symbol layer; tap for Escape (hold-preferred)",
+      "name": "&layer_tap",
+      "description": "Hold for layer; tap for key (hold-preferred)",
       "bindings": [
         "&mo",
         "&kp"
       ],
       "tappingTermMs": 200,
       "flavor": "hold-preferred",
-      "retroTap": true
-    },
-    {
-      "name": "&lower_del",
-      "description": "Hold for Lower layer; tap for Delete (hold-preferred)",
-      "bindings": [
-        "&mo",
-        "&kp"
-      ],
-      "tappingTermMs": 200,
-      "flavor": "hold-preferred",
-      "quickTapMs": 175,
-      "retroTap": true
+      "retroTap": false
     }
   ],
   "combos": []
