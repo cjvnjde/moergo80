@@ -1,6 +1,6 @@
 # Glove80 Dvorak Layout
 
-Personal Glove80 layout, version 11.
+Personal Glove80 layout, version 13.
 
 [`keymap.json`](keymap.json)
 
@@ -13,7 +13,7 @@ Personal Glove80 layout, version 11.
 
 ## Cyrillic
 
-Magic layer toggles Cyrillic transliteration. Single-letter mappings output directly. For two-letter mappings, hold either key and press other key; combo order does not matter.
+Magic layer toggles Cyrillic transliteration. Tap a prefix key for its single letter, except `c`, which has no standalone output. Hold prefix key, then press suffix key for a two-letter mapping. Releasing a held prefix without a suffix produces no output.
 
 ```text
 а a    б b    в v    г g    д d    е e    ё io
