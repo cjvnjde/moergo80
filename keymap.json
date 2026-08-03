@@ -7,8 +7,8 @@
   "unlisted": false,
   "date": 1785690751,
   "creator": "cjvnjde",
-  "title": "cjvnjde's Minimal Glove80 Dvorak v1",
-  "notes": "Version 1. Minimal firmware Dvorak; use a US QWERTY host layout. User layers: Dvorak, DvorakPlain, QWERTY, Magic, Symbol, Number, Function, Emoji, and Utility. Typing-aware bilateral home-row mods use a 300 ms streak and quick-tap, with 180/210/240/270 ms holds. Magic toggles plain layouts. Esc holds Number; the top-middle left thumb holds Function. Tab holds Utility. Delete and right Enter hold Symbol; holding the opposite key adds Shift. The Emoji key holds Emoji and taps Word Shift. Number, Function, and Emoji follow Glorious Engrammer v52.",
+  "title": "cjvnjde's Minimal Glove80 Dvorak v2",
+  "notes": "Version 2. Minimal firmware Dvorak; use a US QWERTY host layout. User layers: Dvorak, DvorakPlain, QWERTY, Magic, Symbol, Number, Function, Emoji, and Utility. Typing-aware bilateral home-row mods use a 300 ms streak and quick-tap, with 180/210/240/270 ms holds. Magic toggles plain layouts. F1-F12 span the top row and its outer number-row edges. The upper-left thumb provides Shift; the upper-middle thumb taps Esc and holds Number; the upper-right thumb holds Function. Tab holds Utility. Delete and right Enter hold Symbol; holding the opposite key adds Shift. The Emoji key holds Emoji and taps Word Shift. Number, Function, and Emoji follow Glorious Engrammer v52.",
   "tags": [
     "dvorak",
     "home-row-mods",
@@ -41,37 +41,92 @@
   "layers": [
     [
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F1"
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -154,7 +209,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12"
+          }
+        ]
       },
       {
         "value": "&none"
@@ -240,12 +300,7 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "SLASH"
-          }
-        ]
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -368,18 +423,7 @@
         ]
       },
       {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&sticky_key_modtap LSFT LSFT"
-          }
-        ],
-        "decoration": {
-          "label": "Shift",
-          "icon": "fa-angle-double-up",
-          "background": "#ffecb3ff",
-          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
-        }
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -422,6 +466,20 @@
         ]
       },
       {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&sticky_key_modtap LSFT LSFT"
+          }
+        ],
+        "decoration": {
+          "label": "Shift",
+          "icon": "fa-angle-double-up",
+          "background": "#ffecb3ff",
+          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
+        }
+      },
+      {
         "value": "&layer_tap",
         "params": [
           {
@@ -439,9 +497,6 @@
             "value": 14
           }
         ]
-      },
-      {
-        "value": "&none"
       },
       {
         "value": "&none"
@@ -610,7 +665,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SLASH"
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -3350,37 +3410,92 @@
     ],
     [
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F1"
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -3463,7 +3578,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12"
+          }
+        ]
       },
       {
         "value": "&none"
@@ -3549,12 +3669,7 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "SLASH"
-          }
-        ]
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -3653,18 +3768,7 @@
         ]
       },
       {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&sticky_key_modtap LSFT LSFT"
-          }
-        ],
-        "decoration": {
-          "label": "Shift",
-          "icon": "fa-angle-double-up",
-          "background": "#ffecb3ff",
-          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
-        }
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -3707,6 +3811,20 @@
         ]
       },
       {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&sticky_key_modtap LSFT LSFT"
+          }
+        ],
+        "decoration": {
+          "label": "Shift",
+          "icon": "fa-angle-double-up",
+          "background": "#ffecb3ff",
+          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
+        }
+      },
+      {
         "value": "&layer_tap",
         "params": [
           {
@@ -3724,9 +3842,6 @@
             "value": 14
           }
         ]
-      },
-      {
-        "value": "&none"
       },
       {
         "value": "&none"
@@ -3895,7 +4010,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "SLASH"
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -3927,37 +4047,92 @@
     ],
     [
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F2"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F3"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F4"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F5"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F6"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F7"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F8"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F9"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F10"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F11"
+          }
+        ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F1"
+          }
+        ]
       },
       {
         "value": "&kp",
@@ -4040,7 +4215,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "F12"
+          }
+        ]
       },
       {
         "value": "&none"
@@ -4225,18 +4405,7 @@
         "value": "&none"
       },
       {
-        "value": "Custom",
-        "params": [
-          {
-            "value": "&sticky_key_modtap LSFT LSFT"
-          }
-        ],
-        "decoration": {
-          "label": "Shift",
-          "icon": "fa-angle-double-up",
-          "background": "#ffecb3ff",
-          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
-        }
+        "value": "&none"
       },
       {
         "value": "&kp",
@@ -4279,6 +4448,20 @@
         ]
       },
       {
+        "value": "Custom",
+        "params": [
+          {
+            "value": "&sticky_key_modtap LSFT LSFT"
+          }
+        ],
+        "decoration": {
+          "label": "Shift",
+          "icon": "fa-angle-double-up",
+          "background": "#ffecb3ff",
+          "description": "Tap for sticky one-shot shift.\nHold for traditional shift."
+        }
+      },
+      {
         "value": "&layer_tap",
         "params": [
           {
@@ -4296,9 +4479,6 @@
             "value": 14
           }
         ]
-      },
-      {
-        "value": "&none"
       },
       {
         "value": "&none"
@@ -4354,12 +4534,7 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "FSLH"
-          }
-        ]
+        "value": "&none"
       },
       {
         "value": "Custom",
@@ -4467,7 +4642,12 @@
         ]
       },
       {
-        "value": "&none"
+        "value": "&kp",
+        "params": [
+          {
+            "value": "FSLH"
+          }
+        ]
       },
       {
         "value": "&kp",
